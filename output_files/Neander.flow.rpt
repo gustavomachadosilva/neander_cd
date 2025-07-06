@@ -1,5 +1,5 @@
 Flow report for Neander
-Sat Jul 05 16:29:42 2025
+Sun Jul 06 15:38:20 2025
 Quartus II 64-Bit Version 13.1.0 Build 162 10/23/2013 SJ Web Edition
 
 
@@ -40,22 +40,22 @@ applicable agreement for further details.
 +---------------------------------------------------------------------------------+
 ; Flow Summary                                                                    ;
 +------------------------------------+--------------------------------------------+
-; Flow Status                        ; Successful - Sat Jul 05 16:29:42 2025      ;
+; Flow Status                        ; Successful - Sun Jul 06 15:38:20 2025      ;
 ; Quartus II 64-Bit Version          ; 13.1.0 Build 162 10/23/2013 SJ Web Edition ;
 ; Revision Name                      ; Neander                                    ;
 ; Top-level Entity Name              ; Neander                                    ;
 ; Family                             ; Cyclone III                                ;
-; Total logic elements               ; 106 / 5,136 ( 2 % )                        ;
-;     Total combinational functions  ; 106 / 5,136 ( 2 % )                        ;
-;     Dedicated logic registers      ; 42 / 5,136 ( < 1 % )                       ;
-; Total registers                    ; 42                                         ;
-; Total pins                         ; 10 / 183 ( 5 % )                           ;
-; Total virtual pins                 ; 0                                          ;
-; Total memory bits                  ; 2,048 / 423,936 ( < 1 % )                  ;
-; Embedded Multiplier 9-bit elements ; 0 / 46 ( 0 % )                             ;
-; Total PLLs                         ; 0 / 2 ( 0 % )                              ;
-; Device                             ; EP3C5F256C6                                ;
+; Device                             ; EP3C16F484C6                               ;
 ; Timing Models                      ; Final                                      ;
+; Total logic elements               ; 184 / 15,408 ( 1 % )                       ;
+;     Total combinational functions  ; 160 / 15,408 ( 1 % )                       ;
+;     Dedicated logic registers      ; 66 / 15,408 ( < 1 % )                      ;
+; Total registers                    ; 66                                         ;
+; Total pins                         ; 51 / 347 ( 15 % )                          ;
+; Total virtual pins                 ; 0                                          ;
+; Total memory bits                  ; 2,048 / 516,096 ( < 1 % )                  ;
+; Embedded Multiplier 9-bit elements ; 0 / 112 ( 0 % )                            ;
+; Total PLLs                         ; 0 / 4 ( 0 % )                              ;
 +------------------------------------+--------------------------------------------+
 
 
@@ -64,7 +64,7 @@ applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 07/05/2025 16:29:11 ;
+; Start date & time ; 07/06/2025 15:38:05 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; Neander             ;
 +-------------------+---------------------+
@@ -75,12 +75,14 @@ applicable agreement for further details.
 +-------------------------------------+------------------------------------+---------------+-------------+----------------+
 ; Assignment Name                     ; Value                              ; Default Value ; Entity Name ; Section Id     ;
 +-------------------------------------+------------------------------------+---------------+-------------+----------------+
-; COMPILER_SIGNATURE_ID               ; 269058766715974.175174375104112    ; --            ; --          ; --             ;
+; COMPILER_SIGNATURE_ID               ; 269058766715974.175182708507572    ; --            ; --          ; --             ;
 ; EDA_GENERATE_FUNCTIONAL_NETLIST     ; On                                 ; --            ; --          ; eda_simulation ;
 ; EDA_NETLIST_WRITER_OUTPUT_DIR       ; C:/altera/NEANDER/simulation/qsim/ ; --            ; --          ; eda_simulation ;
 ; EDA_OUTPUT_DATA_FORMAT              ; Verilog Hdl                        ; --            ; --          ; eda_simulation ;
 ; EDA_SIMULATION_TOOL                 ; ModelSim-Altera (Verilog)          ; <None>        ; --          ; --             ;
 ; EDA_TIME_SCALE                      ; 1 ps                               ; --            ; --          ; eda_simulation ;
+; MAX_CORE_JUNCTION_TEMP              ; 85                                 ; --            ; --          ; --             ;
+; MIN_CORE_JUNCTION_TEMP              ; 0                                  ; --            ; --          ; --             ;
 ; PARTITION_COLOR                     ; 16764057                           ; --            ; --          ; Top            ;
 ; PARTITION_FITTER_PRESERVATION_LEVEL ; PLACEMENT_AND_ROUTING              ; --            ; --          ; Top            ;
 ; PARTITION_NETLIST_TYPE              ; SOURCE                             ; --            ; --          ; Top            ;
@@ -94,14 +96,12 @@ applicable agreement for further details.
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name               ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis      ; 00:00:01     ; 1.0                     ; 4674 MB             ; 00:00:01                           ;
-; Fitter                    ; 00:00:04     ; 1.0                     ; 4947 MB             ; 00:00:03                           ;
-; Assembler                 ; 00:00:00     ; 1.0                     ; 4587 MB             ; 00:00:01                           ;
-; TimeQuest Timing Analyzer ; 00:00:01     ; 1.0                     ; 4620 MB             ; 00:00:01                           ;
-; EDA Netlist Writer        ; 00:00:00     ; 1.0                     ; 4532 MB             ; 00:00:00                           ;
-; EDA Netlist Writer        ; 00:00:00     ; 1.0                     ; 4544 MB             ; 00:00:00                           ;
-; EDA Netlist Writer        ; 00:00:01     ; 1.0                     ; 4544 MB             ; 00:00:00                           ;
-; Total                     ; 00:00:07     ; --                      ; --                  ; 00:00:06                           ;
+; Analysis & Synthesis      ; 00:00:02     ; 1.0                     ; 4678 MB             ; 00:00:02                           ;
+; Fitter                    ; 00:00:06     ; 1.0                     ; 4974 MB             ; 00:00:05                           ;
+; Assembler                 ; 00:00:01     ; 1.0                     ; 4582 MB             ; 00:00:01                           ;
+; TimeQuest Timing Analyzer ; 00:00:02     ; 1.0                     ; 4624 MB             ; 00:00:02                           ;
+; EDA Netlist Writer        ; 00:00:01     ; 1.0                     ; 4531 MB             ; 00:00:00                           ;
+; Total                     ; 00:00:12     ; --                      ; --                  ; 00:00:10                           ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
@@ -115,8 +115,6 @@ applicable agreement for further details.
 ; Assembler                 ; Gustavo          ; Windows 7 ; 6.2        ; x86_64         ;
 ; TimeQuest Timing Analyzer ; Gustavo          ; Windows 7 ; 6.2        ; x86_64         ;
 ; EDA Netlist Writer        ; Gustavo          ; Windows 7 ; 6.2        ; x86_64         ;
-; EDA Netlist Writer        ; Gustavo          ; Windows 7 ; 6.2        ; x86_64         ;
-; EDA Netlist Writer        ; Gustavo          ; Windows 7 ; 6.2        ; x86_64         ;
 +---------------------------+------------------+-----------+------------+----------------+
 
 
@@ -128,8 +126,6 @@ quartus_fit --read_settings_files=off --write_settings_files=off Neander -c Nean
 quartus_asm --read_settings_files=off --write_settings_files=off Neander -c Neander
 quartus_sta Neander -c Neander
 quartus_eda --read_settings_files=off --write_settings_files=off Neander -c Neander
-quartus_eda --gen_testbench --check_outputs=on --tool=modelsim_oem --format=verilog Neander -c Neander --vector_source=C:/altera/NEANDER/Waveform.vwf --testbench_file=C:/altera/NEANDER/simulation/qsim/Waveform.vwf.vt
-quartus_eda --functional=on --flatten_buses=off --simulation=on --tool=modelsim_oem --format=verilog --output_directory=C:/altera/NEANDER/simulation/qsim/ Neander -c Neander
 
 
 

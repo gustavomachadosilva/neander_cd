@@ -2,40 +2,904 @@
 TimeQuest Timing Analyzer Summary
 ------------------------------------------------------------
 
-Type  : Slow 1200mV 85C Model Setup 'clk'
-Slack : -5.902
-TNS   : -149.271
+Type  : Slow 1200mV 85C Model Setup 'seletor'
+Slack : -6.069
+TNS   : -155.719
 
-Type  : Slow 1200mV 85C Model Hold 'clk'
-Slack : 0.313
+Type  : Slow 1200mV 85C Model Setup 'clk_placa'
+Slack : -0.100
+TNS   : -0.100
+
+Type  : Slow 1200mV 85C Model Setup 'LAB07:inst2|CLKDIV2NA8:inst|inst1'
+Slack : 0.004
 TNS   : 0.000
 
-Type  : Slow 1200mV 85C Model Minimum Pulse Width 'clk'
+Type  : Slow 1200mV 85C Model Setup 'LAB07:inst2|CLKDIV2NA8:inst2|inst2'
+Slack : 0.010
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Setup 'LAB07:inst2|CLKDIV2NA8:inst1|inst10'
+Slack : 0.016
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Setup 'LAB07:inst2|CLKDIV2NA8:inst|inst'
+Slack : 0.025
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Setup 'LAB07:inst2|CLKDIV2NA8:inst|inst2'
+Slack : 0.037
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Setup 'LAB07:inst2|CLKDIV2NA8:inst1|inst3'
+Slack : 0.041
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Setup 'LAB07:inst2|CLKDIV2NA8:inst1|inst1'
+Slack : 0.046
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Setup 'LAB07:inst2|CLKDIV2NA8:inst1|inst12'
+Slack : 0.046
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Setup 'LAB07:inst2|CLKDIV2NA8:inst2|inst10'
+Slack : 0.052
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Setup 'LAB07:inst2|CLKDIV2NA8:inst|inst3'
+Slack : 0.077
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Setup 'LAB07:inst2|CLKDIV2NA8:inst2|inst1'
+Slack : 0.097
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Setup 'LAB07:inst2|CLKDIV2NA8:inst|inst10'
+Slack : 0.110
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Setup 'LAB07:inst2|CLKDIV2NA8:inst1|inst8'
+Slack : 0.171
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Setup 'LAB07:inst2|CLKDIV2NA8:inst1|inst'
+Slack : 0.172
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Setup 'LAB07:inst2|CLKDIV2NA8:inst2|inst8'
+Slack : 0.176
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Setup 'LAB07:inst2|CLKDIV2NA8:inst1|inst2'
+Slack : 0.193
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Setup 'LAB07:inst2|CLKDIV2NA8:inst2|inst'
+Slack : 0.193
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Setup 'LAB07:inst2|CLKDIV2NA8:inst|inst8'
+Slack : 0.204
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Setup 'LAB07:inst2|CLKDIV2NA8:inst1|inst14'
+Slack : 0.205
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Setup 'LAB07:inst2|CLKDIV2NA8:inst|inst14'
+Slack : 0.208
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Setup 'LAB07:inst2|CLKDIV2NA8:inst|inst12'
+Slack : 0.211
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Setup 'LAB07:inst2|CLKDIV2NA8:inst2|inst3'
+Slack : 0.272
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Setup 'LAB07:inst2|CLKDIV2NA8:inst2|inst14'
+Slack : 0.318
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'LAB07:inst2|CLKDIV2NA8:inst2|inst3'
+Slack : -0.065
+TNS   : -0.065
+
+Type  : Slow 1200mV 85C Model Hold 'LAB07:inst2|CLKDIV2NA8:inst|inst12'
+Slack : -0.050
+TNS   : -0.050
+
+Type  : Slow 1200mV 85C Model Hold 'LAB07:inst2|CLKDIV2NA8:inst1|inst10'
+Slack : -0.030
+TNS   : -0.030
+
+Type  : Slow 1200mV 85C Model Hold 'LAB07:inst2|CLKDIV2NA8:inst|inst10'
+Slack : 0.000
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'LAB07:inst2|CLKDIV2NA8:inst2|inst10'
+Slack : 0.004
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'LAB07:inst2|CLKDIV2NA8:inst1|inst3'
+Slack : 0.013
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'LAB07:inst2|CLKDIV2NA8:inst1|inst1'
+Slack : 0.016
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'LAB07:inst2|CLKDIV2NA8:inst1|inst12'
+Slack : 0.016
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'LAB07:inst2|CLKDIV2NA8:inst|inst14'
+Slack : 0.020
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'LAB07:inst2|CLKDIV2NA8:inst1|inst14'
+Slack : 0.023
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'LAB07:inst2|CLKDIV2NA8:inst|inst8'
+Slack : 0.024
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'LAB07:inst2|CLKDIV2NA8:inst|inst2'
+Slack : 0.029
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'LAB07:inst2|CLKDIV2NA8:inst|inst3'
+Slack : 0.034
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'LAB07:inst2|CLKDIV2NA8:inst1|inst2'
+Slack : 0.036
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'LAB07:inst2|CLKDIV2NA8:inst2|inst'
+Slack : 0.036
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'LAB07:inst2|CLKDIV2NA8:inst|inst'
+Slack : 0.037
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'LAB07:inst2|CLKDIV2NA8:inst2|inst8'
+Slack : 0.053
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'LAB07:inst2|CLKDIV2NA8:inst1|inst'
+Slack : 0.058
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'LAB07:inst2|CLKDIV2NA8:inst1|inst8'
+Slack : 0.059
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'LAB07:inst2|CLKDIV2NA8:inst2|inst1'
+Slack : 0.067
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'LAB07:inst2|CLKDIV2NA8:inst2|inst2'
+Slack : 0.128
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'LAB07:inst2|CLKDIV2NA8:inst|inst1'
+Slack : 0.131
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'clk_placa'
+Slack : 0.147
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'seletor'
+Slack : 0.345
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'LAB07:inst2|CLKDIV2NA8:inst2|inst14'
+Slack : 0.385
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'seletor'
 Slack : -3.000
 TNS   : -47.174
 
-Type  : Slow 1200mV 0C Model Setup 'clk'
-Slack : -5.198
-TNS   : -130.614
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'clk_placa'
+Slack : -3.000
+TNS   : -4.000
 
-Type  : Slow 1200mV 0C Model Hold 'clk'
-Slack : 0.297
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'LAB07:inst2|CLKDIV2NA8:inst1|inst'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'LAB07:inst2|CLKDIV2NA8:inst1|inst1'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'LAB07:inst2|CLKDIV2NA8:inst1|inst10'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'LAB07:inst2|CLKDIV2NA8:inst1|inst12'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'LAB07:inst2|CLKDIV2NA8:inst1|inst14'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'LAB07:inst2|CLKDIV2NA8:inst1|inst2'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'LAB07:inst2|CLKDIV2NA8:inst1|inst3'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'LAB07:inst2|CLKDIV2NA8:inst1|inst8'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'LAB07:inst2|CLKDIV2NA8:inst2|inst'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'LAB07:inst2|CLKDIV2NA8:inst2|inst1'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'LAB07:inst2|CLKDIV2NA8:inst2|inst10'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'LAB07:inst2|CLKDIV2NA8:inst2|inst14'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'LAB07:inst2|CLKDIV2NA8:inst2|inst2'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'LAB07:inst2|CLKDIV2NA8:inst2|inst3'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'LAB07:inst2|CLKDIV2NA8:inst2|inst8'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'LAB07:inst2|CLKDIV2NA8:inst|inst'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'LAB07:inst2|CLKDIV2NA8:inst|inst1'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'LAB07:inst2|CLKDIV2NA8:inst|inst10'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'LAB07:inst2|CLKDIV2NA8:inst|inst12'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'LAB07:inst2|CLKDIV2NA8:inst|inst14'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'LAB07:inst2|CLKDIV2NA8:inst|inst2'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'LAB07:inst2|CLKDIV2NA8:inst|inst3'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'LAB07:inst2|CLKDIV2NA8:inst|inst8'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Slow 1200mV 0C Model Setup 'seletor'
+Slack : -5.355
+TNS   : -136.263
+
+Type  : Slow 1200mV 0C Model Setup 'clk_placa'
+Slack : 0.026
 TNS   : 0.000
 
-Type  : Slow 1200mV 0C Model Minimum Pulse Width 'clk'
+Type  : Slow 1200mV 0C Model Setup 'LAB07:inst2|CLKDIV2NA8:inst|inst1'
+Slack : 0.065
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'LAB07:inst2|CLKDIV2NA8:inst2|inst2'
+Slack : 0.072
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'LAB07:inst2|CLKDIV2NA8:inst|inst'
+Slack : 0.092
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'LAB07:inst2|CLKDIV2NA8:inst1|inst10'
+Slack : 0.106
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'LAB07:inst2|CLKDIV2NA8:inst1|inst3'
+Slack : 0.107
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'LAB07:inst2|CLKDIV2NA8:inst|inst2'
+Slack : 0.109
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'LAB07:inst2|CLKDIV2NA8:inst1|inst1'
+Slack : 0.112
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'LAB07:inst2|CLKDIV2NA8:inst1|inst12'
+Slack : 0.112
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'LAB07:inst2|CLKDIV2NA8:inst2|inst10'
+Slack : 0.118
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'LAB07:inst2|CLKDIV2NA8:inst|inst3'
+Slack : 0.151
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'LAB07:inst2|CLKDIV2NA8:inst2|inst1'
+Slack : 0.158
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'LAB07:inst2|CLKDIV2NA8:inst|inst10'
+Slack : 0.177
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'LAB07:inst2|CLKDIV2NA8:inst1|inst'
+Slack : 0.214
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'LAB07:inst2|CLKDIV2NA8:inst1|inst8'
+Slack : 0.216
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'LAB07:inst2|CLKDIV2NA8:inst2|inst8'
+Slack : 0.217
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'LAB07:inst2|CLKDIV2NA8:inst1|inst2'
+Slack : 0.226
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'LAB07:inst2|CLKDIV2NA8:inst2|inst'
+Slack : 0.226
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'LAB07:inst2|CLKDIV2NA8:inst|inst8'
+Slack : 0.236
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'LAB07:inst2|CLKDIV2NA8:inst1|inst14'
+Slack : 0.237
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'LAB07:inst2|CLKDIV2NA8:inst|inst14'
+Slack : 0.241
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'LAB07:inst2|CLKDIV2NA8:inst|inst12'
+Slack : 0.248
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'LAB07:inst2|CLKDIV2NA8:inst2|inst3'
+Slack : 0.303
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'LAB07:inst2|CLKDIV2NA8:inst2|inst14'
+Slack : 0.398
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'LAB07:inst2|CLKDIV2NA8:inst1|inst10'
+Slack : -0.079
+TNS   : -0.079
+
+Type  : Slow 1200mV 0C Model Hold 'LAB07:inst2|CLKDIV2NA8:inst2|inst3'
+Slack : -0.078
+TNS   : -0.078
+
+Type  : Slow 1200mV 0C Model Hold 'LAB07:inst2|CLKDIV2NA8:inst|inst12'
+Slack : -0.064
+TNS   : -0.064
+
+Type  : Slow 1200mV 0C Model Hold 'LAB07:inst2|CLKDIV2NA8:inst2|inst10'
+Slack : -0.022
+TNS   : -0.022
+
+Type  : Slow 1200mV 0C Model Hold 'LAB07:inst2|CLKDIV2NA8:inst|inst10'
+Slack : -0.022
+TNS   : -0.022
+
+Type  : Slow 1200mV 0C Model Hold 'LAB07:inst2|CLKDIV2NA8:inst1|inst3'
+Slack : -0.013
+TNS   : -0.013
+
+Type  : Slow 1200mV 0C Model Hold 'LAB07:inst2|CLKDIV2NA8:inst1|inst1'
+Slack : -0.012
+TNS   : -0.012
+
+Type  : Slow 1200mV 0C Model Hold 'LAB07:inst2|CLKDIV2NA8:inst1|inst12'
+Slack : -0.012
+TNS   : -0.012
+
+Type  : Slow 1200mV 0C Model Hold 'LAB07:inst2|CLKDIV2NA8:inst|inst2'
+Slack : -0.003
+TNS   : -0.003
+
+Type  : Slow 1200mV 0C Model Hold 'LAB07:inst2|CLKDIV2NA8:inst|inst'
+Slack : 0.006
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'LAB07:inst2|CLKDIV2NA8:inst|inst3'
+Slack : 0.006
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'LAB07:inst2|CLKDIV2NA8:inst|inst14'
+Slack : 0.008
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'LAB07:inst2|CLKDIV2NA8:inst1|inst14'
+Slack : 0.011
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'LAB07:inst2|CLKDIV2NA8:inst|inst8'
+Slack : 0.012
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'LAB07:inst2|CLKDIV2NA8:inst1|inst2'
+Slack : 0.022
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'LAB07:inst2|CLKDIV2NA8:inst2|inst'
+Slack : 0.022
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'LAB07:inst2|CLKDIV2NA8:inst2|inst1'
+Slack : 0.039
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'LAB07:inst2|CLKDIV2NA8:inst1|inst8'
+Slack : 0.050
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'LAB07:inst2|CLKDIV2NA8:inst2|inst8'
+Slack : 0.055
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'LAB07:inst2|CLKDIV2NA8:inst1|inst'
+Slack : 0.057
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'clk_placa'
+Slack : 0.078
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'LAB07:inst2|CLKDIV2NA8:inst2|inst2'
+Slack : 0.109
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'LAB07:inst2|CLKDIV2NA8:inst|inst1'
+Slack : 0.113
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'seletor'
+Slack : 0.301
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'LAB07:inst2|CLKDIV2NA8:inst2|inst14'
+Slack : 0.341
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'seletor'
 Slack : -3.000
 TNS   : -47.174
 
-Type  : Fast 1200mV 0C Model Setup 'clk'
-Slack : -2.675
-TNS   : -60.915
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'clk_placa'
+Slack : -3.000
+TNS   : -4.000
 
-Type  : Fast 1200mV 0C Model Hold 'clk'
-Slack : 0.152
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'LAB07:inst2|CLKDIV2NA8:inst1|inst'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'LAB07:inst2|CLKDIV2NA8:inst1|inst1'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'LAB07:inst2|CLKDIV2NA8:inst1|inst10'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'LAB07:inst2|CLKDIV2NA8:inst1|inst12'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'LAB07:inst2|CLKDIV2NA8:inst1|inst14'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'LAB07:inst2|CLKDIV2NA8:inst1|inst2'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'LAB07:inst2|CLKDIV2NA8:inst1|inst3'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'LAB07:inst2|CLKDIV2NA8:inst1|inst8'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'LAB07:inst2|CLKDIV2NA8:inst2|inst'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'LAB07:inst2|CLKDIV2NA8:inst2|inst1'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'LAB07:inst2|CLKDIV2NA8:inst2|inst10'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'LAB07:inst2|CLKDIV2NA8:inst2|inst14'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'LAB07:inst2|CLKDIV2NA8:inst2|inst2'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'LAB07:inst2|CLKDIV2NA8:inst2|inst3'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'LAB07:inst2|CLKDIV2NA8:inst2|inst8'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'LAB07:inst2|CLKDIV2NA8:inst|inst'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'LAB07:inst2|CLKDIV2NA8:inst|inst1'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'LAB07:inst2|CLKDIV2NA8:inst|inst10'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'LAB07:inst2|CLKDIV2NA8:inst|inst12'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'LAB07:inst2|CLKDIV2NA8:inst|inst14'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'LAB07:inst2|CLKDIV2NA8:inst|inst2'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'LAB07:inst2|CLKDIV2NA8:inst|inst3'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'LAB07:inst2|CLKDIV2NA8:inst|inst8'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Fast 1200mV 0C Model Setup 'seletor'
+Slack : -2.768
+TNS   : -63.592
+
+Type  : Fast 1200mV 0C Model Setup 'clk_placa'
+Slack : 0.196
 TNS   : 0.000
 
-Type  : Fast 1200mV 0C Model Minimum Pulse Width 'clk'
+Type  : Fast 1200mV 0C Model Setup 'LAB07:inst2|CLKDIV2NA8:inst|inst'
+Slack : 0.237
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'LAB07:inst2|CLKDIV2NA8:inst2|inst2'
+Slack : 0.239
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'LAB07:inst2|CLKDIV2NA8:inst|inst1'
+Slack : 0.239
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'LAB07:inst2|CLKDIV2NA8:inst|inst2'
+Slack : 0.240
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'LAB07:inst2|CLKDIV2NA8:inst1|inst3'
+Slack : 0.242
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'LAB07:inst2|CLKDIV2NA8:inst2|inst10'
+Slack : 0.248
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'LAB07:inst2|CLKDIV2NA8:inst1|inst1'
+Slack : 0.249
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'LAB07:inst2|CLKDIV2NA8:inst1|inst12'
+Slack : 0.249
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'LAB07:inst2|CLKDIV2NA8:inst1|inst10'
+Slack : 0.268
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'LAB07:inst2|CLKDIV2NA8:inst|inst3'
+Slack : 0.274
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'LAB07:inst2|CLKDIV2NA8:inst2|inst1'
+Slack : 0.287
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'LAB07:inst2|CLKDIV2NA8:inst|inst10'
+Slack : 0.291
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'LAB07:inst2|CLKDIV2NA8:inst1|inst'
+Slack : 0.333
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'LAB07:inst2|CLKDIV2NA8:inst2|inst8'
+Slack : 0.337
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'LAB07:inst2|CLKDIV2NA8:inst1|inst8'
+Slack : 0.339
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'LAB07:inst2|CLKDIV2NA8:inst|inst12'
+Slack : 0.347
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'LAB07:inst2|CLKDIV2NA8:inst1|inst2'
+Slack : 0.353
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'LAB07:inst2|CLKDIV2NA8:inst2|inst'
+Slack : 0.353
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'LAB07:inst2|CLKDIV2NA8:inst1|inst14'
+Slack : 0.360
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'LAB07:inst2|CLKDIV2NA8:inst|inst8'
+Slack : 0.360
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'LAB07:inst2|CLKDIV2NA8:inst|inst14'
+Slack : 0.367
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'LAB07:inst2|CLKDIV2NA8:inst2|inst3'
+Slack : 0.383
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'LAB07:inst2|CLKDIV2NA8:inst2|inst14'
+Slack : 0.626
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'LAB07:inst2|CLKDIV2NA8:inst1|inst10'
+Slack : -0.054
+TNS   : -0.054
+
+Type  : Fast 1200mV 0C Model Hold 'LAB07:inst2|CLKDIV2NA8:inst2|inst3'
+Slack : -0.032
+TNS   : -0.032
+
+Type  : Fast 1200mV 0C Model Hold 'LAB07:inst2|CLKDIV2NA8:inst|inst12'
+Slack : -0.021
+TNS   : -0.021
+
+Type  : Fast 1200mV 0C Model Hold 'LAB07:inst2|CLKDIV2NA8:inst|inst10'
+Slack : -0.013
+TNS   : -0.013
+
+Type  : Fast 1200mV 0C Model Hold 'LAB07:inst2|CLKDIV2NA8:inst|inst14'
+Slack : -0.012
+TNS   : -0.012
+
+Type  : Fast 1200mV 0C Model Hold 'LAB07:inst2|CLKDIV2NA8:inst1|inst14'
+Slack : -0.006
+TNS   : -0.006
+
+Type  : Fast 1200mV 0C Model Hold 'LAB07:inst2|CLKDIV2NA8:inst|inst8'
+Slack : -0.006
+TNS   : -0.006
+
+Type  : Fast 1200mV 0C Model Hold 'LAB07:inst2|CLKDIV2NA8:inst1|inst2'
+Slack : 0.001
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'LAB07:inst2|CLKDIV2NA8:inst2|inst'
+Slack : 0.001
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'LAB07:inst2|CLKDIV2NA8:inst1|inst8'
+Slack : 0.005
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'LAB07:inst2|CLKDIV2NA8:inst2|inst8'
+Slack : 0.005
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'LAB07:inst2|CLKDIV2NA8:inst|inst3'
+Slack : 0.005
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'LAB07:inst2|CLKDIV2NA8:inst2|inst10'
+Slack : 0.006
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'LAB07:inst2|CLKDIV2NA8:inst1|inst'
+Slack : 0.007
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'LAB07:inst2|CLKDIV2NA8:inst1|inst3'
+Slack : 0.010
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'LAB07:inst2|CLKDIV2NA8:inst1|inst1'
+Slack : 0.012
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'LAB07:inst2|CLKDIV2NA8:inst1|inst12'
+Slack : 0.012
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'LAB07:inst2|CLKDIV2NA8:inst|inst2'
+Slack : 0.020
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'LAB07:inst2|CLKDIV2NA8:inst|inst'
+Slack : 0.022
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'LAB07:inst2|CLKDIV2NA8:inst2|inst1'
+Slack : 0.033
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'clk_placa'
+Slack : 0.036
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'LAB07:inst2|CLKDIV2NA8:inst2|inst2'
+Slack : 0.051
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'LAB07:inst2|CLKDIV2NA8:inst|inst1'
+Slack : 0.051
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'seletor'
+Slack : 0.180
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'LAB07:inst2|CLKDIV2NA8:inst2|inst14'
+Slack : 0.208
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'seletor'
 Slack : -3.000
-TNS   : -49.159
+TNS   : -52.772
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'clk_placa'
+Slack : -3.000
+TNS   : -4.052
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'LAB07:inst2|CLKDIV2NA8:inst1|inst'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'LAB07:inst2|CLKDIV2NA8:inst1|inst1'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'LAB07:inst2|CLKDIV2NA8:inst1|inst10'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'LAB07:inst2|CLKDIV2NA8:inst1|inst12'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'LAB07:inst2|CLKDIV2NA8:inst1|inst14'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'LAB07:inst2|CLKDIV2NA8:inst1|inst2'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'LAB07:inst2|CLKDIV2NA8:inst1|inst3'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'LAB07:inst2|CLKDIV2NA8:inst1|inst8'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'LAB07:inst2|CLKDIV2NA8:inst2|inst'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'LAB07:inst2|CLKDIV2NA8:inst2|inst1'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'LAB07:inst2|CLKDIV2NA8:inst2|inst10'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'LAB07:inst2|CLKDIV2NA8:inst2|inst14'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'LAB07:inst2|CLKDIV2NA8:inst2|inst2'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'LAB07:inst2|CLKDIV2NA8:inst2|inst3'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'LAB07:inst2|CLKDIV2NA8:inst2|inst8'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'LAB07:inst2|CLKDIV2NA8:inst|inst'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'LAB07:inst2|CLKDIV2NA8:inst|inst1'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'LAB07:inst2|CLKDIV2NA8:inst|inst10'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'LAB07:inst2|CLKDIV2NA8:inst|inst12'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'LAB07:inst2|CLKDIV2NA8:inst|inst14'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'LAB07:inst2|CLKDIV2NA8:inst|inst2'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'LAB07:inst2|CLKDIV2NA8:inst|inst3'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'LAB07:inst2|CLKDIV2NA8:inst|inst8'
+Slack : -1.000
+TNS   : -1.000
 
 ------------------------------------------------------------
